@@ -9,7 +9,7 @@ exports.up = (pgm) => {
       created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
       UPDATED_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
       username VARCHAR(30) NOT NULL,
-      boi VARCHAR(400)
+      bio VARCHAR(400)
     );
   `);
 };
